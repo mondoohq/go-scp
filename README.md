@@ -1,4 +1,4 @@
-go-scp [![Build Status](https://travis-ci.org/hnakamur/go-scp.svg?branch=master)](https://travis-ci.org/hnakamur/go-scp)  [![Go Report Card](https://goreportcard.com/badge/github.com/hnakamur/go-scp)](https://goreportcard.com/report/github.com/hnakamur/go-scp) [![PkgGoDev](https://pkg.go.dev/badge/github.com/hnakamur/go-scp)](https://pkg.go.dev/github.com/hnakamur/go-scp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
+go-scp [![CI](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml/badge.svg)](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml)  [![Go Report Card](https://goreportcard.com/badge/github.com/hnakamur/go-scp)](https://goreportcard.com/report/github.com/hnakamur/go-scp) [![PkgGoDev](https://pkg.go.dev/badge/github.com/hnakamur/go-scp)](https://pkg.go.dev/github.com/hnakamur/go-scp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
 ======
 ## Unmaintained
 

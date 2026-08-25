@@ -1,10 +1,16 @@
-go-scp [![Build Status](https://travis-ci.org/hnakamur/go-scp.svg?branch=master)](https://travis-ci.org/hnakamur/go-scp)  [![Go Report Card](https://goreportcard.com/badge/github.com/hnakamur/go-scp)](https://goreportcard.com/report/github.com/hnakamur/go-scp) [![PkgGoDev](https://pkg.go.dev/badge/github.com/hnakamur/go-scp)](https://pkg.go.dev/github.com/hnakamur/go-scp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
+go-scp [![CI](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml/badge.svg)](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml)  [![Go Report Card](https://goreportcard.com/badge/github.com/hnakamur/go-scp)](https://goreportcard.com/report/github.com/hnakamur/go-scp) [![PkgGoDev](https://pkg.go.dev/badge/github.com/hnakamur/go-scp)](https://pkg.go.dev/github.com/hnakamur/go-scp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
 ======
-## Unmaintained
+## About this fork
 
-This library is not maintained since `scp` is deprecated (See [Deprecating scp \[LWN.net\]](https://lwn.net/Articles/835962/)).
+This is Mondoo's fork of [hnakamur/go-scp](https://github.com/hnakamur/go-scp), which the
+original author stopped maintaining. It is maintained here, and kept building and tested
+across the platforms Go supports.
 
-## old readme
+OpenSSH has [deprecated the scp protocol](https://lwn.net/Articles/835962/) in favour of
+SFTP, so prefer SFTP for new work. The scp path remains useful for reaching hosts where
+the SFTP subsystem is unavailable, which is why this library is still here.
+
+## Usage
 A scp client library written in Go.
 The remote server must have the scp command.
 

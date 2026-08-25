@@ -1,0 +1,30 @@
+version: 2
+
+updates:
+  # Go module dependencies
+  - package-ecosystem: gomod
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "deps"
+    groups:
+      go-dependencies:
+        patterns:
+          - "*"
+
+  # Workflow actions. These are pinned to commit SHAs, so without this they
+  # would never be updated: dependabot rewrites the SHA and keeps the version
+  # comment in step.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "ci"
+    groups:
+      github-actions:
+        patterns:
+          - "*"

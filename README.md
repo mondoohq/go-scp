@@ -1,4 +1,4 @@
-go-scp [![CI](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml/badge.svg)](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml)  [![Go Report Card](https://goreportcard.com/badge/github.com/hnakamur/go-scp)](https://goreportcard.com/report/github.com/hnakamur/go-scp) [![PkgGoDev](https://pkg.go.dev/badge/github.com/hnakamur/go-scp)](https://pkg.go.dev/github.com/hnakamur/go-scp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
+go-scp [![CI](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml/badge.svg)](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml)  [![PkgGoDev](https://pkg.go.dev/badge/github.com/hnakamur/go-scp)](https://pkg.go.dev/github.com/hnakamur/go-scp) [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hyperium/hyper/master/LICENSE)
 ======
 ## About this fork
 
@@ -15,7 +15,7 @@ A scp client library written in Go.
 The remote server must have the scp command.
 
 ## Example
-Please refer to [the example at godoc](https://godoc.org/github.com/hnakamur/go-scp#example-package).
+Please refer to [the example at pkg.go.dev](https://pkg.go.dev/github.com/hnakamur/go-scp#example-package).
 
 ## License
 MIT

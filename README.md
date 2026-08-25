@@ -3,10 +3,8 @@ go-scp [![CI](https://github.com/mondoohq/go-scp/actions/workflows/ci.yml/badge.
 ## About this fork
 
 This is Mondoo's fork of [hnakamur/go-scp](https://github.com/hnakamur/go-scp), which the
-original author stopped maintaining. It is maintained here because
-[cnquery](https://github.com/mondoohq/cnquery) and
-[cnspec](https://github.com/mondoohq/cnspec) use it to read files from remote hosts, and
-it is kept working on the platforms those tools run on.
+original author stopped maintaining. It is maintained here, and kept building and tested
+across the platforms Go supports.
 
 OpenSSH has [deprecated the scp protocol](https://lwn.net/Articles/835962/) in favour of
 SFTP, so prefer SFTP for new work. The scp path remains useful for reaching hosts where
